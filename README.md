@@ -16,7 +16,7 @@ var payload = []byte("Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
 
 func router(w http.ResponseWriter, r *http.Request) {
 	switch r.URL.Path {
-	case "/short"
+	case "/short":
         w.WriteHeader(http.StatusOK)
 		_, _ = w.Write([]byte("Hello world"))
     case "/long":
