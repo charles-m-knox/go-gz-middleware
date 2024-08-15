@@ -20,7 +20,8 @@ var (
 )
 
 func router(w http.ResponseWriter, r *http.Request) {
-	w.Header().Add("Content-Type", "text/plain")
+    // content type header is not needed in this example, but leaving it here
+	// w.Header().Add("Content-Type", "text/plain")
 	switch r.URL.Path {
 	case "/short":
 		_, _ = w.Write(shortPayload)
