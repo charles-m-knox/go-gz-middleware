@@ -9,7 +9,7 @@ import (
 	"log"
 	"net/http"
 
-	gzm "git.cmcode.dev/cmcode/go-gz-middleware"
+	gzm "github.com/charles-m-knox/go-gz-middleware"
 )
 
 var (
@@ -57,4 +57,4 @@ Available options for the handler are
 - **Minimum content length** - gzip compression is counterproductive if the payload is too small.
   - `gzm.DefaultMinContentLen`
 
-Under the hood, this project leverages [go-http-response-recorder](https://git.cmcode.dev/cmcode/go-http-response-recorder) for determining content length before writing responses to the next middleware handler.
+Under the hood, this project leverages [go-http-response-recorder](https://github.com/charles-m-knox/go-http-response-recorder) for determining content length before writing responses to the next middleware handler.

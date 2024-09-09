@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	recorder "git.cmcode.dev/cmcode/go-http-response-recorder"
+	recorder "github.com/charles-m-knox/go-http-response-recorder"
 )
 
 // These constants are copied from the gzip package, so that code that imports this

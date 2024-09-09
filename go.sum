@@ -1,2 +1,2 @@
-git.cmcode.dev/cmcode/go-http-response-recorder v0.0.1 h1:BTeR8feUPYNxSmoePkP27YQBUQyIY9k0nLzcjjuj3Eg=
-git.cmcode.dev/cmcode/go-http-response-recorder v0.0.1/go.mod h1:N8JaZwLqKGTdhbpUAND8SE650PXPUdUiqaxlXKw5rJE=
+github.com/charles-m-knox/go-http-response-recorder v0.0.2 h1:zJH5Wlwv+VRqY8Sj5YbOR/JRtSzsHOShBBAnQ5+Ln4o=
+github.com/charles-m-knox/go-http-response-recorder v0.0.2/go.mod h1:24U9qX3jt7l8VQOxxC+salU4HJFcrRoZD48w5UziKsI=
